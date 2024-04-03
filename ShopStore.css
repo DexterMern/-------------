@@ -1,0 +1,293 @@
+* {
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+  font-family: "Yekan";
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: #fff;
+  font-size: 10px;
+}
+
+.top-page {
+  padding: 0;
+  margin: 0;
+  width: 40%;
+}
+
+.text-top-web {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.percent-picture {
+  max-width: 40px;
+  height: auto;
+}
+
+#timer {
+  border-radius: 10px;
+  padding: 0.7%;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.timer-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  font-size: 11px;
+  font-weight: 1000;
+}
+
+span {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.time-box {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 6px;
+  width: 20%;
+  color: black;
+  text-align: center;
+}
+/*--------------------------------------menu---------------------------*/
+/*------------menu-top-section---------------------------*/
+
+.logo-website {
+  max-width: 100px;
+  height: auto;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.right-top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.search-box {
+  background-color: rgba(121, 118, 118, 0.303);
+  padding: 2%;
+  border-radius: 10px;
+  width: 70%;
+}
+
+.search-box i {
+  color: gray;
+  font-size: 20px;
+}
+
+.search-box input {
+  background-color: #ffffff00;
+  border: none;
+  width: 90%;
+}
+
+.left-top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15%;
+}
+
+.left-top-menu img {
+  max-width: 30px;
+  height: auto;
+}
+
+.breack-between {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.button-login {
+  background-color: #fff;
+  border: 2px solid gray;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+/*------------menu-bottom-section---------------------------*/
+.bottom-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  font-size: 15px;
+  color: rgb(92, 92, 92);
+}
+
+.bottom-left-menu {
+  font-size: 17px;
+  margin-left: 1%;
+  cursor: pointer;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  margin-top: 10px;
+}
+li,
+ul {
+  cursor: pointer;
+}
+
+.menu-editing {
+  margin: auto 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+  font-weight: 1000;
+  border-radius: 10px;
+}
+
+.menu-editing:hover {
+  border-bottom: 2px solid rgb(0, 157, 255);
+  color: rgb(241, 48, 122);
+}
+
+/*منو زیر دسته بندی کالا*/
+.container-submenu-category {
+  width: 80%;
+  height: 50vh;
+  display: none;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  border: 1px solid #c7c5c5;
+}
+
+.toggle_sub_menu {
+  display: flex;
+}
+.list-menu-category-right {
+  width: 20%;
+  height: 100%;
+  overflow: auto;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.item-menu-categori {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  background-color: aliceblue;
+  padding: 5% 5%;
+  font-size: 20px;
+  font-weight: 900;
+}
+.item-menu-categori:hover {
+  background-color: #fff;
+  color: rgb(255, 0, 111);
+}
+
+.menu-category-left {
+  width: 80%;
+  overflow: auto;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.menu-category-left ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 1000;
+  margin: 2%;
+  cursor: pointer;
+}
+
+.menu-category-left ul:hover {
+  justify-content: space-between;
+}
+
+.menu-category-left ul:hover {
+  background-color: rgba(0, 255, 255, 0.285);
+}
+
+.span-befor-list-menu {
+  font-size: 30px;
+  color: rgb(255, 0, 102);
+}
+/*این قسمت برای استایل دهی مدال قسمت انتخاب شهر است*/
+.modal-center-city {
+  transform: translateX(-150%) translateY(20%);
+  display: none;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 25%;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  height: 70vh;
+}
+
+.toggle-modal-city {
+  display: block;
+}
+
+.delete-modal-city {
+  text-align: end;
+  border-radius: 10px;
+  border: none;
+  background-color: #f1bbbb4c;
+  color: red;
+  margin-right: 320px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 60px;
+  cursor: pointer;
+  width: 10%;
+  height: 40px;
+}
+
+.h3-modal-city {
+  margin-top: -30px;
+  margin-right: 10px;
+
+}
+.ul-modal-city {
+  height: 60vh;
+  list-style-type: none;
+  margin-top: 10px;
+  margin-right: 10px;
+  color: rgb(0, 208, 255);
+  font-weight: 900;
+}
+.li-modal-city {
+  color: black;
+  margin-right: 3%;
+  padding-right: 2%;
+  line-height: 40px;
+  cursor: pointer;
+}
+.li-modal-city:hover {
+  background-color: #5a525262;
+}
+/*قسمت استایل دهی مدال تمام شد*/
